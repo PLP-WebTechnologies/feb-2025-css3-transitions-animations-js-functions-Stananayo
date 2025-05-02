@@ -2,6 +2,7 @@
 
 ## Objectives
 
+
 Create smooth CSS transitions and animations.
 Use JavaScript functions for dynamic behavior.
 Implement local storage for data persistence.
@@ -13,6 +14,7 @@ Add CSS animations to elements like buttons or images.
 > - Write a JavaScript function that:
 > - Stores and retrieves user preferences using localStorage.
 > - Implements an animation triggered by user actions.
+
 
 ## Tasks
 
