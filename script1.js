@@ -4,7 +4,7 @@
 const darkModeCheckbox = document.getElementById('darkModeCheckbox');
 const saveBtn = document.getElementById('saveBtn');
 const statusMessage = document.getElementById('statusMessage');
-const sampleImage = document.getElementById('sampleImage');
+const sampleImage = document.getElementById('image1');
 
 // Function to save preferences in localStorage
 function savePreferences() {
@@ -13,7 +13,7 @@ function savePreferences() {
   };
   localStorage.setItem('userPreferences', JSON.stringify(preferences));
   showStatusMessage('Preferences saved!');
-  triggerAnimation(sampleImage);
+  triggerAnimation(image1);
   applyPreferences(preferences);
 }
 
@@ -68,5 +68,5 @@ window.addEventListener('load', () => {
 
 // Optional: animate image on hover or other user actions
 sampleImage.addEventListener('click', () => {
-  triggerAnimation(sampleImage);
+  triggerAnimation(image1);
 });
